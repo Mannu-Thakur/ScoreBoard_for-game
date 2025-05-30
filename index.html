@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sc.css">
+  <title>ScoreKeeperPt</title>
+</head>
+<body>
+
+    
+  <div class="container">
+    <h1>00:00</h1>
+    <div class="select-wrapper">
+      <label for="playTo"><strong>Playing to</strong></label>
+      <select id="playTo">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+      </select>
+    </div>
+    <p id="para">Use buttons below to keep score</p>
+
+    <section id="container">
+      <button id="btn1" style="--clr:#0000FF">Player-1</button>
+      <button id="btn2" style="--clr:#0000FF">Player-2</button>
+      <button id="btn3" style="--clr:#FF0000">Reset</button>
+    </section>
+  </div>
+
+  <script src="sc.js"></script>
+</body>
+</html>
